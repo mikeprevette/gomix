@@ -1,0 +1,28 @@
+{
+  "name": "conditional-ifttt-triggers",
+  "version": "0.0.1",
+  "description": "Trigger one (or more) IFTTT services when certain conditions are met",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "body-parser": "*",
+    "moment": "*",
+    "request": "*",
+    "nedb": "*"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "url": "https://gomix.com/#!/project/multi-ifttt-triggers"
+  },
+  "keywords": [
+    "node",
+    "gomix",
+    "express",
+    "ifttt"
+  ]
+}
